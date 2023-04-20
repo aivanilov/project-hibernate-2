@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e500734-2ebd-40d2-a75c-488fc50faa1b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Rating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Rental.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/SpecialFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/repositories/BasicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/repositories/CityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/repositories/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/repositories/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/repositories/StrangeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/services/DataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/movies/services/CustomerServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/movies/jpaBuddyEntities/FilmActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movies/jpaBuddyEntities/FilmActor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/movies/jpaBuddyEntities/FilmActorId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movies/jpaBuddyEntities/FilmActorId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/movies/jpaBuddyEntities/FilmCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movies/jpaBuddyEntities/FilmCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/movies/jpaBuddyEntities/FilmCategoryId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movies/jpaBuddyEntities/FilmCategoryId.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="com.haulmont.jpb.JpaEntity" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0-sources.jar!/jakarta/persistence/Convert.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2OXHaP3RxWmBSpEH3wPO3KQ2KyG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.movies.entities" />
+      <recent name="org.example" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.movies.services" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.movies.services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CustomerServiceTest.createNewFilm">
+    <configuration name="CustomerServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.movies.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.movies.services" />
+      <option name="MAIN_CLASS_NAME" value="org.movies.services.CustomerServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceTest.createCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.movies.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.movies.services" />
+      <option name="MAIN_CLASS_NAME" value="org.movies.services.CustomerServiceTest" />
+      <option name="METHOD_NAME" value="createCustomer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceTest.createNewFilm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.movies.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.movies.services" />
+      <option name="MAIN_CLASS_NAME" value="org.movies.services.CustomerServiceTest" />
+      <option name="METHOD_NAME" value="createNewFilm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceTest.rentFilm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.movies.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.movies.services" />
+      <option name="MAIN_CLASS_NAME" value="org.movies.services.CustomerServiceTest" />
+      <option name="METHOD_NAME" value="rentFilm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceTest.returnFilm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.movies.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.movies.services" />
+      <option name="MAIN_CLASS_NAME" value="org.movies.services.CustomerServiceTest" />
+      <option name="METHOD_NAME" value="returnFilm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CustomerServiceTest.createNewFilm" />
+        <item itemvalue="JUnit.CustomerServiceTest.createCustomer" />
+        <item itemvalue="JUnit.CustomerServiceTest.rentFilm" />
+        <item itemvalue="JUnit.CustomerServiceTest.returnFilm" />
+        <item itemvalue="JUnit.CustomerServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e500734-2ebd-40d2-a75c-488fc50faa1b" name="Changes" comment="" />
+      <created>1681700072527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681700072527</updated>
+      <workItem from="1681700073628" duration="3179000" />
+      <workItem from="1681703272552" duration="15099000" />
+      <workItem from="1681737130575" duration="4138000" />
+      <workItem from="1681743841357" duration="17770000" />
+      <workItem from="1681876864483" duration="25660000" />
+      <workItem from="1681973475129" duration="1439000" />
+      <workItem from="1681974952398" duration="1269000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/movies/services/CustomerServiceTest.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
