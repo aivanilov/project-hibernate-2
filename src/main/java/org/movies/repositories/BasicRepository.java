@@ -9,7 +9,6 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -81,7 +80,7 @@ public class BasicRepository<T, K> implements Repository<T, K>{
 
     @Override
     public Optional<T> findById(K id) {
-        Optional<T> found = Optional.empty();
+        Optional<T> found;
         try (Session session = sessionFactory.openSession()) {
             Transaction tx = session.getTransaction();
             try {
@@ -98,7 +97,7 @@ public class BasicRepository<T, K> implements Repository<T, K>{
 
     @Override
     public List<T> findAll() {
-        List<T> found = new ArrayList<>();
+        List<T> found;
         try (Session session = sessionFactory.openSession()) {
             Transaction tx = session.getTransaction();
             try {
@@ -117,7 +116,7 @@ public class BasicRepository<T, K> implements Repository<T, K>{
 
     @Override
     public long count() {
-        long count = 0;
+        long count;
         try (Session session = sessionFactory.openSession()) {
             Transaction tx = session.getTransaction();
             try {

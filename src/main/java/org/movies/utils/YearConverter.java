@@ -2,8 +2,6 @@ package org.movies.utils;
 
 import jakarta.persistence.AttributeConverter;
 import jakarta.persistence.Converter;
-
-import java.sql.Date;
 import java.time.Year;
 
 @Converter(autoApply = true)
