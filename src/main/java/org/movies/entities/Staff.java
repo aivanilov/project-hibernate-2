@@ -6,9 +6,6 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.UpdateTimestamp;
-import org.hibernate.type.descriptor.jdbc.LongVarbinaryJdbcType;
-
-import java.sql.Blob;
 import java.sql.Timestamp;
 
 @Entity

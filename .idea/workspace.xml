@@ -4,47 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e500734-2ebd-40d2-a75c-488fc50faa1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Rating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Rental.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/SpecialFeature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/repositories/BasicRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/repositories/CityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/repositories/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/repositories/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/repositories/StrangeConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/services/DataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/movies/services/CustomerServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/movies/jpaBuddyEntities/FilmActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movies/jpaBuddyEntities/FilmActor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/movies/jpaBuddyEntities/FilmActorId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movies/jpaBuddyEntities/FilmActorId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/movies/jpaBuddyEntities/FilmCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movies/jpaBuddyEntities/FilmCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/movies/jpaBuddyEntities/FilmCategoryId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movies/jpaBuddyEntities/FilmCategoryId.java" afterDir="false" />
+    <list default="true" id="6e500734-2ebd-40d2-a75c-488fc50faa1b" name="Changes" comment="Prefinal version">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/utils/RatingConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/utils/Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movies/utils/YearConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jpb/jpb-settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.jpb/jpb-settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/movies/entities/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/movies/entities/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/movies/entities/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Rental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/movies/entities/SpecialFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/SpecialFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/movies/entities/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movies/entities/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/movies/repositories/BasicRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movies/repositories/BasicRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/movies/repositories/StrangeConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/movies/services/DataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movies/services/DataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/movies/services/CustomerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/movies/services/CustomerServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,26 +34,23 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="com.haulmont.jpb.JpaEntity" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0-sources.jar!/jakarta/persistence/Convert.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/hibernate/orm/hibernate-core/6.2.1.Final/hibernate-core-6.2.1.Final-sources.jar!/org/hibernate/boot/model/process/internal/NamedConverterResolution.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2OXHaP3RxWmBSpEH3wPO3KQ2KyG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -92,14 +66,16 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "com.haulmont.jpb.viewMode",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -115,6 +91,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="org.movies.utils.Strings" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.movies.services" />
@@ -206,9 +185,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CustomerServiceTest.createNewFilm" />
-        <item itemvalue="JUnit.CustomerServiceTest.createCustomer" />
         <item itemvalue="JUnit.CustomerServiceTest.rentFilm" />
         <item itemvalue="JUnit.CustomerServiceTest.returnFilm" />
+        <item itemvalue="JUnit.CustomerServiceTest.createCustomer" />
         <item itemvalue="JUnit.CustomerServiceTest" />
       </list>
     </recent_temporary>
@@ -227,23 +206,61 @@
       <workItem from="1681743841357" duration="17770000" />
       <workItem from="1681876864483" duration="25660000" />
       <workItem from="1681973475129" duration="1439000" />
-      <workItem from="1681974952398" duration="1269000" />
+      <workItem from="1681974952398" duration="4428000" />
+      <workItem from="1681981792870" duration="8179000" />
+      <workItem from="1681992936451" duration="2733000" />
     </task>
+    <task id="LOCAL-00001" summary="Prefinal version">
+      <created>1681976353930</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681976353930</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Prefinal version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prefinal version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/movies/services/CustomerServiceTest.java</url>
-          <line>65</line>
+          <line>67</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/movies/entities/Film.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/movies/entities/Film.java</url>
+          <line>174</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/movies/services/CustomerServiceTest.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.AssertionError" package="java.lang" />
+          <option name="timeStamp" value="8" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.movies.entities.Film" memberName="releaseYear" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -22,6 +22,10 @@ public class Payment {
     @Column(name = "payment_id", columnDefinition = "smallint")
     private Integer id;
 
+    @ManyToOne
+    @JoinColumn(name = "customer_id")
+    private Customer customer;
+
     @ManyToOne(targetEntity = Staff.class)
     @JoinColumn(name = "staff_id")
     private Staff staff;

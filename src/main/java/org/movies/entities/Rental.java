@@ -24,7 +24,7 @@ public class Rental {
     private int id;
 
     @Column(name = "rental_date", columnDefinition = "datetime")
-    private LocalDateTime dateTime;
+    private LocalDateTime rentalDate;
 
     @ManyToOne(targetEntity = Inventory.class)
     @JoinColumn(name = "inventory_id")

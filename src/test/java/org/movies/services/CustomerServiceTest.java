@@ -5,11 +5,13 @@ import org.hibernate.Transaction;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.movies.entities.*;
+import org.movies.utils.Strings;
 
-import java.sql.Date;
 import java.time.LocalDateTime;
+import java.time.Year;
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.stream.Collectors;
 
 class CustomerServiceTest {
     private final DataService ds = new DataService();
@@ -96,13 +98,16 @@ class CustomerServiceTest {
                 Staff staff = ds.staffDAO.findById(2).orElse(null);
 
                 Rental rental = ds.rentalDAO.save(Rental.builder()
-                                .customer(customer)
-                                .inventory(inventory)
-                                .staff(staff)
-                                .build());
+                        .customer(customer)
+                        .inventory(inventory)
+                        .rentalDate(LocalDateTime.now())
+                        .staff(staff)
+                        .build());
 
                 Payment payment = ds.paymentDAO.save(Payment.builder()
                         .amount(1.99)
+                        .customer(customer)
+                        .paymentDate(LocalDateTime.now())
                         .staff(staff)
                         .rental(rental)
                         .build());
@@ -129,33 +134,25 @@ class CustomerServiceTest {
                 tx.begin();
                 List<Actor> allActors = ds.actorDAO.findAll();
                 List<Category> allCategories = ds.categoryDAO.findAll();
-                Actor actor1 = allActors.stream().findAny().orElse(null);
-                Actor actor2 = allActors.stream().findAny().orElse(null);
-                Category category1 = allCategories.stream().findAny().orElse(null);
-                Category category2 = allCategories.stream().findAny().orElse(null);
-                List<Actor> actors = new ArrayList<>();
-                actors.add(actor1);
-                actors.add(actor2);
-                List<Category> categories = new ArrayList<>();
-                categories.add(category1);
-                categories.add(category2);
-                String specialFeatures = SpecialFeature.BEHIND_THE_SCENES+ "," +SpecialFeature.DELETED_SCENES;
+                List<Actor> actors = allActors.stream().limit(3).collect(Collectors.toList());
+                List<Category> categories = allCategories.stream().limit(2).collect(Collectors.toList());
+                String specialFeatures = SpecialFeature.BEHIND_THE_SCENES.getName() + Strings.COMMA + SpecialFeature.DELETED_SCENES.getName();
 
-                        Film film = ds.filmDAO.save(Film.builder()
-                                .actors(actors)
-                                .categories(categories)
-                                .title("Whatever film")
-                                .description("New film for testing issues")
-                                .rating(Rating.PG_13)
-                                .language(ds.languageDAO.findById(1).orElse(null))
-                                .length(120)
-                                .originalLanguage(ds.languageDAO.findById(1).orElse(null))
-                                .releaseYear(new Date(2023))
-                                .rentalDuration(5)
-                                .rentalRate(3.2)
-                                .replacementCost(19.99)
-                                .specialFeatures(Set.of(SpecialFeature.COMMENTARIES))
-                                .build());
+                Film film = ds.filmDAO.save(Film.builder()
+                        .actors(actors)
+                        .categories(categories)
+                        .title("Whatever film")
+                        .description("New film for testing issues")
+                        .rating(Rating.PG_13)
+                        .language(ds.languageDAO.findById(1).orElse(null))
+                        .length(120)
+                        .originalLanguage(ds.languageDAO.findById(1).orElse(null))
+                        .releaseYear(Year.of(2023))
+                        .rentalDuration(5)
+                        .rentalRate(3.2)
+                        .replacementCost(19.99)
+                        .specialFeatures(specialFeatures)
+                        .build());
 
                 Assertions.assertNotNull(film.getId());
                 Assertions.assertTrue(ds.filmDAO.deleteById(film.getId()));

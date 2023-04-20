@@ -18,4 +18,19 @@ public enum SpecialFeature {
     public String getName() {
         return name;
     }
+
+    public static SpecialFeature getFeatureByValue(String value) {
+        if(value == null || value.isEmpty()) {
+            return null;
+        }
+
+        SpecialFeature[] values = SpecialFeature.values();
+        for (SpecialFeature feature : values) {
+            if (feature.getName().equals(value)) {
+                return feature;
+            }
+        }
+
+        return null;
+    }
 }

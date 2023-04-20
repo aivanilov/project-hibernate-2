@@ -86,7 +86,7 @@ public class BasicRepository<T, K> implements Repository<T, K>{
             Transaction tx = session.getTransaction();
             try {
                 tx.begin();
-                found = Optional.of(session.get(tClass, id));
+                found = Optional.of(session.find(tClass, id));
                 tx.commit();
             } catch (Exception e) {
                 tx.rollback();

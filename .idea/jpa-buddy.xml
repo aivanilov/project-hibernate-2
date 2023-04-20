@@ -4,6 +4,6 @@
     <option name="defaultUnitInitialized" value="true" />
     <option name="renamerInitialized" value="true" />
     <option name="reverseEngineeringLastDbConnectionId" value="d3341034-5613-4078-8e9e-00ccdcd15e6b" />
-    <option name="reLastEntityCreationPackage" value="src/main/java/org/movies/jpaBuddyEntities" />
+    <option name="reLastEntityCreationPackage" value="src/main/java/org/movies/jpa" />
   </component>
 </project>

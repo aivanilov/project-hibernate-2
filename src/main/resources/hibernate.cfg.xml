@@ -10,6 +10,8 @@
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/movies</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">mysql</property>
+        <property name="connection.pool_size">3</property>
+        <property name="current_session_context_class">thread</property>
 
         <!-- Hibernate dialect -->
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
@@ -19,6 +21,5 @@
         <property name="hibernate.format_sql">true</property>
         <property name="hibernate.hbm2ddl.auto">validate</property>
         <property name="hibernate.connection.autocommit">false</property>
-        <property name="hibernate.type_contributors">SpecialFeatureStringConverter.java</property>
     </session-factory>
 </hibernate-configuration>

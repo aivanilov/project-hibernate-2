@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="JpaPluginProjectSettings">
+  <component name="JpaPluginProjectSettings" reExcludeTablePrefixes="" reExcludeColumnPrefixes="">
     <option name="entityNameTemplate" />
     <option name="generateJpaOnGetter" value="true" />
     <option name="isLombokBuilder" value="true" />
     <option name="isLombokAllArgsConstructor" value="true" />
     <option name="isLombokNoArgsConstructor" value="true" />
     <option name="scaffoldingLanguage" />
+  </component>
+  <component name="ReverseEngineeringSettings">
+    <database-infos>
+      <database-info dbms-id="mysql">
+        <mapping-types>
+          <mapping-type sql-type="SET" java-class="java.lang.String" />
+        </mapping-types>
+      </database-info>
+    </database-infos>
   </component>
 </project>

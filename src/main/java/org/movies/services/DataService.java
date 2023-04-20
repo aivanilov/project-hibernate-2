@@ -1,7 +1,6 @@
 package org.movies.services;
 
 import jakarta.persistence.Entity;
-import jakarta.transaction.Transactional;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -12,6 +11,8 @@ import org.movies.repositories.BasicRepository;
 import org.movies.repositories.CityRepository;
 import org.movies.repositories.CustomerRepository;
 import org.reflections.Reflections;
+
+import jakarta.transaction.Transactional;
 import java.util.List;
 
 @Transactional(rollbackOn = {Exception.class})
